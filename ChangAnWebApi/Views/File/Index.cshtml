@@ -1,0 +1,101 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @*jquery框架*@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @*bootstrap 4开始table及select依赖js*@
+    <script src="~/lib/popper-2.0.0/popper.min.js"></script>
+    @*bootstrap框架*@
+    <script src="~/lib/bootstrap4.6/js/bootstrap.js"></script>
+    <link href="~/lib/bootstrap4.6/css/bootstrap.css" rel="stylesheet" />
+    @*layer弹出层插件*@
+    <script src="~/lib/layer/layer.js"></script>
+    <script src="~/common/zlWebApi.js"></script>
+    <script src="~/modle/File/js/index.js"></script>
+    <style>
+        .file-title {
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px 0;
+        }
+
+        .file-ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .file-li {
+            flex: 0 0 32.3333%;
+            max-width: 32.333%;
+            border: 1px solid #e1e1e1;
+            margin: 0.5%;
+            padding: 4px 8px;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px #d5d5d5;
+        }
+
+        .file-info-li {
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 1px solid #e1e1e1;
+            padding: 8px 4px;
+        }
+
+        .info-name {
+            padding: 0 4px;
+        }
+
+        .file-info-li:first-child {
+            border-top: 1px solid #e1e1e1;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-6">
+                <div class="row">
+                    <div class="px-3">
+                        <button class="btn btn-sm btn-primary" id="Refresh">刷新</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="file-title">AlistApps</div>
+                        <div class="file-ul" id="alist">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-4">
+                        <input type="text" id="scree" class="form-control form-control-sm">
+                    </div>
+                    <div class="px-3">
+                        <button class="btn btn-sm btn-primary" id="search">搜索</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="file-title">酷安筛选结果</div>
+                        <div class="file-info-ul" id="cool">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

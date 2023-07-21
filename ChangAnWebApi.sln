@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangAnWebApi", "ChangAnWebApi\ChangAnWebApi.csproj", "{A9484B89-6AE5-4994-B3A7-E2E2C1FCE78E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9484B89-6AE5-4994-B3A7-E2E2C1FCE78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9484B89-6AE5-4994-B3A7-E2E2C1FCE78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9484B89-6AE5-4994-B3A7-E2E2C1FCE78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9484B89-6AE5-4994-B3A7-E2E2C1FCE78E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CF20B60-0757-4FFF-BDC6-5AC1CDD7B916}
+	EndGlobalSection
+EndGlobal
